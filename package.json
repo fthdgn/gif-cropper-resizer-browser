@@ -1,0 +1,38 @@
+{
+  "name": "gif-cropper-resizer-browser",
+  "version": "1.0.0",
+  "description": "Crops and resizes gifs on browser.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fthdgn/gif-cropper-resizer-browser.git"
+  },
+  "keywords": [
+    "gif",
+    "image",
+    "resize",
+    "crop",
+    "browser"
+  ],
+  "author": {
+    "name": "Fatih Doğan",
+    "email": "fatih@fatihdogan.dev",
+    "url": "https://github.com/fthdgn"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gif-encoder-2-browser": "^1.0.5",
+    "gifuct-js": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/offscreencanvas": "^2019.6.4",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "webpack": ">=5.0.0"
+  }
+}
