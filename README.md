@@ -1,4 +1,4 @@
-## gif-cropper-resizer-browser
+# gif-cropper-resizer-browser
 
 Crops and resizes gifs on browser.
 
